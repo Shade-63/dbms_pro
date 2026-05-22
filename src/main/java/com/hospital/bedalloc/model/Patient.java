@@ -37,4 +37,9 @@ public class Patient {
 
     public Timestamp getRegisteredDate() { return registeredDate; }
     public void setRegisteredDate(Timestamp registeredDate) { this.registeredDate = registeredDate; }
+
+    @Override
+    public String toString() {
+        return name + " (" + contact + ")";
+    }
 }
