@@ -44,3 +44,5 @@ sql/.DS_Store
 
 # Documents
 *.pdf
+*.md
+!README.md

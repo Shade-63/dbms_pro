@@ -66,7 +66,7 @@ public class DashboardPanel extends JPanel {
         filterBar.add(Box.createHorizontalStrut(10));
         filterBar.add(bedCountLabel);
 
-        JButton refreshBtn = new JButton("↺ Refresh");
+        JButton refreshBtn = new JButton("Refresh");
         refreshBtn.setFont(new Font("Segoe UI", Font.BOLD, 12));
         refreshBtn.setBackground(new Color(107, 114, 128));
         refreshBtn.setForeground(Color.WHITE);

@@ -27,7 +27,7 @@ public class MainFrame extends JFrame {
         topBar.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20));
 
         JLabel brand = new JLabel("🏥  HOSPITAL BED ALLOCATION SYSTEM");
-        brand.setFont(new Font("Segoe UI", Font.BOLD, 16));
+        brand.setFont(new Font("Segoe UI Emoji", Font.BOLD, 16));
         brand.setForeground(Color.WHITE);
         topBar.add(brand, BorderLayout.WEST);
 
@@ -111,7 +111,7 @@ public class MainFrame extends JFrame {
         btn.setBorderPainted(false);
         btn.setBackground(new Color(17, 24, 39));
         btn.setForeground(new Color(209, 213, 219));
-        btn.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+        btn.setFont(new Font("Segoe UI Emoji", Font.PLAIN, 13));
         btn.setHorizontalAlignment(SwingConstants.LEFT);
         btn.setBorder(BorderFactory.createEmptyBorder(0, 16, 0, 0));
         btn.setCursor(new Cursor(Cursor.HAND_CURSOR));
